@@ -49,11 +49,12 @@
      document.write("Something went wrong with the Discount Rate.<br/>");
    }
 
-   document.write("Your price was " + amountOfSale + " before your discount code \"" + discountCode + "\" was applied. Your total price is now: " + ((amountOfSale - (amountOfSale*discountRate).toFixed(2)) + "<br/>"));
+   document.write("Your price was " + amountOfSale + " before your discount code \"" + discountCode + "\" was applied. Your total price is now: " + (amountOfSale - (amountOfSale*discountRate) + "<br/>"));
 
 
    var decimal = 1.2345;
    document.write("Testing some decimal stuff: " + decimal);
+   document.write("<br/>");
    document.write("Testing some decimal stuff: " + decimal.toFixed(1));
 
   </script>
