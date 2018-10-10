@@ -1,2 +1,2 @@
-# javascript
-General wonkery
+# JavaScript
+Tooling around with JS. Nothing to see here.
