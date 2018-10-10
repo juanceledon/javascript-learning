@@ -7,6 +7,9 @@
  <body>
   <script language="javascript" type="text/javascript">
    var age = 54;
+   var discountCode = "C";
+   var discountRate;
+   var amountOfSale = 27.95;
 
    if (age<18) {
     document.write("A pup, you are!");
@@ -21,6 +24,33 @@
    } else if (age > 60) {
     document.write("60 is the new 40. Do something exciting!");
    }
+
+   document.write("<br/>");
+
+   switch (discountCode)
+   {
+    case "A":
+    case "a":
+     discountRate = 0.0325;
+     break;
+    case "B":
+    case "b":
+     discountRate = 0.05;
+     break;
+    case "C":
+    case "c":
+     discountRate = 0.075;
+     break;
+    case "D":
+    case "d":
+     discountRate = 0.10;
+     break;
+    default:
+     document.write("Something went wrong with the Discount Rate.<br/>");
+   }
+
+   document.write("Your price was " + amountOfSale + " before your discount code \"" + discountCode + "\" was applied. Your total price is now: " + (amountOfSale - (amountOfSale*discountRate) + "<br/>");
+
   </script>
  </body>
 </html>
