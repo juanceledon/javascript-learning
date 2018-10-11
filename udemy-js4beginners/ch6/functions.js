@@ -24,7 +24,7 @@ function subtract(a,b) {
  alert( a-b );
 }
 
-function mulyiply(a,b) {
+function multiply(a,b) {
  alert( a*b );
 }
 
