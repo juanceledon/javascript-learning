@@ -21,13 +21,13 @@ function add(a,b) {
 }
 
 function subtract(a,b) {
- return a-b;
+ alert( a-b );
 }
 
 function mulyiply(a,b) {
- return a*b;
+ alert( a*b );
 }
 
 function divide(a,b) {
- return a/b;
+ alert( a/b );
 }
