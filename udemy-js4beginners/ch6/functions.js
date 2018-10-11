@@ -15,3 +15,19 @@ function hebrew() {
 function french() {
  alert("Bon Jour!");
 }
+
+function add(a,b) {
+ return a+b;
+}
+
+function subtract(a,b) {
+ return a-b;
+}
+
+function mulyiply(a,b) {
+ return a*b;
+}
+
+function divide(a,b) {
+ return a/b;
+}
