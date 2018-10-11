@@ -17,7 +17,7 @@ document.write("<tr><th>Month</th><th>Interest Earned</th><th>Total</th></tr>");
 for ( var i = 1; i<=termInMonths; i++) {
   amountEarned = (amountInvested * interest);
   amountInvested = (amountInvested + amountEarned);
-  document.write("<tr><td> " + i + " </td><td> " + amountEarned + " </td><td> " + amountInvested + " </td></tr>");
+  document.write("<tr><td> " + i + " </td><td> " + amountEarned.toFixed(2) + " </td><td> " + amountInvested.toFixed(2) + " </td></tr>");
 }
 
 document.write("</table>");
