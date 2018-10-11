@@ -17,7 +17,7 @@ function french() {
 }
 
 function add(a,b) {
- return a+b;
+ document.write( a+b );
 }
 
 function subtract(a,b) {
