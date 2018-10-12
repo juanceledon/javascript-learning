@@ -31,3 +31,25 @@ function multiply(a,b) {
 function divide(a,b) {
  alert( a/b );
 }
+
+function mathProb(num1, symbol, num2) {
+ switch (symbol) {
+  case "+":
+   alert(num1 + num2 );
+   break;
+  case "-":
+   alert( num1 - num2 );
+   break;
+  case "*":
+   alert( num1 * num2 );
+   break;
+  case "/":
+   alert( num1 / num2 );
+   break;
+  default:
+   document.write("You have not provided the proper operator. Only +, -, *, and / are allowed.");
+ }
+
+
+ 
+}
