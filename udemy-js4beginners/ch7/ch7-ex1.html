@@ -9,16 +9,12 @@
   <script language="javascript" type="text/javascript">
    var placesToVisit = ["New York", "Singapore", "London", "Sydney", "Tokyo"]
   
-   for (x in placesToVisit) {
-    document.write(placesToVisit[x] + "<br/>");
-   }
+   outputArray(placesToVisit);
 
    placesToVisit.push("Boise");
-   document.write("Wait! Let's add one more to the list. That makes the new list:<br/>");
+   document.write("<br/>Wait! Let's add one more to the list. That makes the new list:<br/><br/>");
 
-   for (x in placesToVisit) {
-    document.write(placesToVisit[x] + "<br/>");
-   }
+   outputArray(placesToVisit);
 
   </script>
  </body>
