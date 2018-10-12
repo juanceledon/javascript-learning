@@ -5,17 +5,26 @@
  </head>
 
  <body>
+  <p>What is your dog's age in human years?</p>
+  <input type="button" id="ok" value ="Start" />
+  <input type="text" id="txtdogAgeInHumanYears" />
   <script language="javascript" type="text/javascript">
-
-   var dogAgeInHumanYears = prompt("What is your dog's age in human years?");
-   var dogAgeInDogYears = dogAgeInHumanYears * 7;
-
-   alert("Your dog is " + dogAgeInDogYears + " years old in dog years");
+   var dogAgeInHumanYears;
+   var button = document.getElementById("ok");
+   var txt = document.getElementById("txtdogAgeInHumanYears");
+   button.addEventListener("click",  calculator);
+   var dogAgeInDogYears;
+   
    if (confirm("Do you want to quit?"))
    {
     document.write("Exiting dog years calculator.");
    } else {
     document.write("I'm glad you stuck around!");
+   }
+   funcion calculator(){
+    dogAgeInHumanYears = parseInt(txtdogAgeInHumanYears.value);
+    dogAgeInDogYears = dogAgeInHumanYears * 7;
+    document.write("Your dog is " + dogAgeInDogYears + " years old in dog years");
    }
 
   </script>
