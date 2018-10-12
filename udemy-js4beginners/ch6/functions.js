@@ -41,9 +41,11 @@ function mathProb(num1, symbol, num2) {
    alert( num1 - num2 );
    break;
   case "*":
+   document.write("num 1: " + num1 + "<br/>num 2: " + num2);
    alert( num1 * num2 );
    break;
   case "/":
+   document.write("num 1: " + num1 + "<br/>num 2: " + num2);
    alert( num1 / num2 );
    break;
   default:
