@@ -1,0 +1,25 @@
+<html>
+ <head>
+  <title>Chapter 7, Exercise 1.</title>
+  <meta charset="utf-8"/>
+ </head>
+
+ <body>
+  <script language="javascript" type="text/javascript" src="./functions.js"></script>
+  <script language="javascript" type="text/javascript">
+   var placesToVisit = ["New York", "Singapore", "London", "Sydney", "Tokyo"]
+  
+   for (x in placesToVisit) {
+    document.write(x + "<br/>");
+   }
+
+   placesToVisit.push("Boise");
+   document.write("Wait! Let's add one more to the list. That makes the new list:<br/>");
+
+   for (x in placesToVisit) {
+    document.write(x + "<br/>");
+   }
+
+  </script>
+ </body>
+</html>
